@@ -1,0 +1,30 @@
+.taskcard {
+  background-color: #848484;
+  font: 16px;
+  list-style: none;
+  margin: 20px 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  box-shadow: rgb(80, 176, 11) 0px 1px 4px;
+  text-decoration: line-through;
+}
+
+.incomplete {
+  box-shadow: rgba(169, 30, 5, 0.724) 0px 1px 4px;
+}
+
+.delete {
+  border: 0px;
+  border-radius: 5px;
+  background-color: #be3434;
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
