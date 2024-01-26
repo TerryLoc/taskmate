@@ -15,7 +15,7 @@ export const TaskList = () => {
   }
 
   return (
-    <>
+    <div className="tasklist">
       <h1>Task List</h1>
       <ul>
         <button className="trigger" onClick={() => setShow(!show)}>
@@ -47,6 +47,6 @@ export const TaskList = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
       </BoxCard>
-    </>
+    </div>
   );
 };
