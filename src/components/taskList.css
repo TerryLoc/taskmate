@@ -1,0 +1,26 @@
+.tasklist h1 {
+  font-size: 2rem;
+  text-shadow: rgba(255, 255, 255, 0.5) 1px 2px 3px;
+  text-align: center;
+  margin: 20px;
+}
+
+ul {
+  background-color: #cbcbcb;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+button.trigger {
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: var(--theme-button);
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
