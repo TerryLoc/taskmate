@@ -20,6 +20,10 @@ a {
   padding: 0px;
 }
 
+.App {
+  text-align: center;
+}
+
 button {
   padding: 5px 10px;
   border: none;
@@ -32,4 +36,11 @@ button {
 body {
   background: rgb(34, 34, 34);
   color: white;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
 }

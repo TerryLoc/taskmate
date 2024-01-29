@@ -1,3 +1,4 @@
+import './Header.css';
 import Robin from '../assets/BMW.png';
 
 export const Header = () => {
