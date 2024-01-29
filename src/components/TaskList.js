@@ -11,9 +11,10 @@ export const TaskList = () => {
   ]);
   const [show, setShow] = useState(true);
   const styles = {
-    color: 'black',
+    color: show ? 'black' : 'white',
     fontSize: '2.25rem',
-    border: '2px outset white',
+    border: '2px outset',
+    borderColor: show ? 'red' : 'white',
     padding: '2px',
     background: 'grey',
     borderRadius: '5px',
@@ -29,7 +30,7 @@ export const TaskList = () => {
       <h1 style={styles}>Task List</h1>
       <ul>
         <button className="trigger" onClick={() => setShow(!show)}>
-          Toggle
+          {show ? 'Hide' : 'Show'}
         </button>
         {show &&
           tasks.map((task) => (

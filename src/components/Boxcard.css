@@ -1,11 +1,12 @@
 .box {
   color: var(--theme-button);
-  width: 500px;
-  margin: 20px auto;
+  max-width: 600px;
+  margin: 25px auto;
   box-shadow: rgba(255, 255, 255, 0.484) 2px 3px 5px;
   padding: 20px 5px;
   border: 0px;
   border-radius: 5px;
+  justify-content: center;
 }
 
 .box.success {
