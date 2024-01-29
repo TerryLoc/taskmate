@@ -10,6 +10,13 @@ export const TaskList = () => {
     { id: 8391, name: 'Watch Lectures', completed: false },
   ]);
   const [show, setShow] = useState(true);
+  const styles = {
+    color: 'darkred',
+    border: '2px outset white',
+    padding: '5px',
+    background: 'grey',
+    borderRadius: '5px',
+  };
 
   function handleDelete(id) {
     setTasks(tasks.filter((task) => task.id !== id));
@@ -17,7 +24,7 @@ export const TaskList = () => {
 
   return (
     <div className="tasklist">
-      <h1>Task List</h1>
+      <h1 style={styles}>Task List</h1>
       <ul>
         <button className="trigger" onClick={() => setShow(!show)}>
           Toggle
