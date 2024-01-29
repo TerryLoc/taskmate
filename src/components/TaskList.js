@@ -11,11 +11,13 @@ export const TaskList = () => {
   ]);
   const [show, setShow] = useState(true);
   const styles = {
-    color: 'darkred',
+    color: 'black',
+    fontSize: '2.25rem',
     border: '2px outset white',
-    padding: '5px',
+    padding: '2px',
     background: 'grey',
     borderRadius: '5px',
+    boxShadow: '1px 1px 10px inset',
   };
 
   function handleDelete(id) {
