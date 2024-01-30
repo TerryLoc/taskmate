@@ -1,6 +1,6 @@
-.taskcard {
-  background-color: #848484;
-  font: 16px;
+.taskcard li {
+  background: rgb(34, 34, 34);
+  font-size: 1.1rem;
   list-style: none;
   margin: 20px 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -11,16 +11,16 @@
   align-items: center;
 }
 
-.completed {
-  box-shadow: rgb(80, 176, 11) 0px 1px 4px;
-  text-decoration: line-through;
+.taskcard li.completed {
+  box-shadow: rgb(48, 114, 0) 0px 1px 4px;
 }
 
-.incomplete {
-  box-shadow: rgba(169, 30, 5, 0.724) 0px 1px 4px;
+.taskcard li.incomplete {
+  box-shadow: rgba(135, 20, 0, 0.689) 0px 1px 4px;
 }
 
-.delete {
+.taskcard button.delete {
+  font-size: 0.9rem;
   border: 0px;
   border-radius: 5px;
   background-color: #be3434;

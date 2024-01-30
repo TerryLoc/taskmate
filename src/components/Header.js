@@ -1,10 +1,10 @@
+import Logo from '../assets/BMW.png';
 import './Header.css';
-import Robin from '../assets/BMW.png';
 
 export const Header = () => {
   return (
     <header>
-      <img className="logo" src={Robin} alt="" />
+      <img src={Logo} alt="" />
       <a href="/">Home</a>
     </header>
   );
