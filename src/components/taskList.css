@@ -9,7 +9,6 @@
 }
 
 .tasklist .header {
-  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,8 +17,10 @@
 }
 
 .tasklist h1 {
-  font-size: 28px;
+  font-size: 2rem;
   text-align: center;
+
+  text-shadow: #0000009b 1px 2px 4px;
 }
 
 .tasklist button.trigger {

@@ -1,4 +1,4 @@
-import Logo from '../assets/BMW.png';
+import Logo from '../assets/icontask.jpeg';
 import './Header.css';
 
 export const Header = () => {
