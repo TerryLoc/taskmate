@@ -5,6 +5,7 @@
 :root {
   --theme-border: #d7d7d7;
   --theme-button: #0f3440;
+  --theme-delete: #be3434;
 }
 
 a {
@@ -21,6 +22,7 @@ a {
 }
 
 button {
+  font-size: 0.9rem;
   padding: 5px 5px;
   border: none;
   border-radius: 5px;

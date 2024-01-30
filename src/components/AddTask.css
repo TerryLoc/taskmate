@@ -22,7 +22,7 @@
 }
 
 .addtask input {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 7px;
   border: 1px solid #878787;
   border-radius: 5px;
@@ -35,7 +35,7 @@
 }
 
 .addtask select {
-  font-size: 18px;
+  font-size: 0.9rem;
   padding: 7px;
   border-radius: 5px;
   margin: 10px;
@@ -43,8 +43,16 @@
 }
 
 .addtask button {
-  font-size: 0.9rem;
-  background-color: rgb(22, 90, 67);
+  background-color: var(--theme-button);
   padding: 7px 10px;
   margin: 10px;
+}
+
+.reset {
+  font-size: 0.9rem;
+  background: var(--theme-delete);
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

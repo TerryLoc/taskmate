@@ -20,10 +20,9 @@
 }
 
 .taskcard button.delete {
-  font-size: 0.9rem;
   border: 0px;
   border-radius: 5px;
-  background-color: #be3434;
+  background-color: var(--theme-delete);
   color: #ffffff;
   padding: 5px 10px;
   cursor: pointer;
