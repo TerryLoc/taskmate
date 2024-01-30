@@ -3,7 +3,7 @@ import './Footer.css';
 export const Footer = () => {
   return (
     <footer>
-      <p>2030 - TaskMate</p>
+      <p style={{ color: 'var(--theme-delete)' }}>2024 - TaskMate</p>
     </footer>
   );
 };
